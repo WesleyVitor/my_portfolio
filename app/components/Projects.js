@@ -1,6 +1,16 @@
 export default function Projects() {
   const projects = [
     {
+      title: "WhatsApp Bot",
+      technologies: "Python, FastAPI, OpenAI Agents, Twilio, LangGraph, Next.js, Tailwind CSS",
+      description: [
+        "Workflow using LangGraph and OpenAi Agents using FastAPI to expose API",
+        "Template using Next.js and Tailwind CSS to receive user name and number",
+        "WhatsApp integration to send message to response question using user whatsapp app"
+      ],
+      link: "https://github.com/WesleyVitor/WhatsApp-bot",
+    },
+    {
       title: "Review AI",
       technologies: "Python, FastAPI, OpenAI Agents, LangChain, Google Auth, Next.js, Tailwind CSS",
       description: [
